@@ -104,7 +104,7 @@ client.once('ready', () => {
 login();
 
 client.on("message", message => {
-if(message.content === "เซเบอร์หงี่") {
+if (message.content === "เซเบอร์หงี่") {
 message.channel.send ("ถกออกมาค่ะเดี๋ยวทำให้")}
 })
 
